@@ -17,4 +17,4 @@ docker run -ti -v path/to/hurl-test/hurls:/hurls {user}/hurl
 
 From the bash prompt in the container, you can run a hurl thusly: `hurl hurls/test.hurl`. 
 
-More [usage example](https://hurl.dev/docs/samples.html) on the hurl website.
+More [usage examples](https://hurl.dev/docs/samples.html) on the hurl website.
