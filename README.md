@@ -9,7 +9,7 @@ Clone this repo, and then build the Docker image:
 ```bash
 ~$ docker build -t {user}/hurl -f Dockerfile .
 ```
-Run the container and attach a bind mount. Adding new `.hurl` files into the `hurls` directory on the host makes them available in the running container.:
+Run the container and attach a bind mount. Adding new `.hurl` files into the `hurls` directory on the host makes them available in the running container:
 
 ```bash
 docker run -ti -v path/to/hurl-test/hurls:/hurls {user}/hurl
